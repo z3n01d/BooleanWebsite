@@ -1,0 +1,15 @@
+.box {
+    background-image: url("gfx/background.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: fill;
+}
+
+.booleanText {
+    background-image: url("gfx/booleanText.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: fill;
+}
