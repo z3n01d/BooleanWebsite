@@ -61,10 +61,8 @@
    background-color: transparent;
    border: none;
    color: white;
-   padding-top: 3px;
-   padding-bottom: 3px;
-   padding-left: 1px;
-   padding-right: 1px;
+   width: 10%;
+   height: 7%;
    text-align: center;
    text-decoration: none;
    border-radius: 20px;
