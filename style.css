@@ -6,7 +6,8 @@
 }
 
 .topnav {
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10);
     overflow: hidden;
 }
 
@@ -18,16 +19,7 @@
     text-decoration: none;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
-}
-
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    border-radius: 20px;
 }
 
 .box {
