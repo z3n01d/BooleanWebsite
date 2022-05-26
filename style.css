@@ -31,9 +31,10 @@
    display: flex;
    width: 10%;
    height: 7%;
-   text-decoration: none;
    margin: auto;
    text-align: center;
+   text-decoration: none;
+   background-color: rgb(66, 66, 197);
    font-family: 'Roboto', sans-serif;
    color: white;
    border-radius: 25%;
