@@ -54,11 +54,11 @@
     color: white;
 }
 
-.button {
+a.button {
    -webkit-appearance: button;
    -moz-appearance: button;
    appearance: button;
-   
+
    margin-left: auto;
    margin-right: auto;
    margin-top: 6px;
