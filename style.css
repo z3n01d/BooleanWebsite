@@ -29,7 +29,7 @@
 
 .moreInfo {
     background-image: linear-gradient(rgb(59, 59, 172,0.5),rgb(23, 23, 67,0.5));
-    padding: 15px 45px;
+    width: 100%;
     text-align: center;
     background-size: 200% auto;
     border-radius: 15px;
@@ -38,6 +38,10 @@
     margin: auto;
     font-family: 'Roboto', sans-serif;
     color: white;
+}
+
+.moreInfo:hover {
+    width: 120%;
 }
 
 .booleanText:hover {
