@@ -5,12 +5,6 @@
     overflow-x: hidden;
 }
 
-.head {
-    height: 30%;
-    width: 100%;
-    margin-top: auto;
-}
-
 .box {
     min-height: 100vh;
     background-image: url("gfx/background.jpg");
