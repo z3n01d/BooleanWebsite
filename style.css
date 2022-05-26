@@ -81,3 +81,7 @@
 .booleanText:hover {
     width: 27%;
 }
+
+.p {
+    font-family: 'Roboto', sans-serif;
+}
