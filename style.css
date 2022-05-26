@@ -29,6 +29,7 @@
 
 .moreInfo {
    display: flex;
+   margin: auto;
    background-color: #4640af;
    border: none;
    color: white;
