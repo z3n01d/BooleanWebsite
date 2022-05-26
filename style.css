@@ -27,16 +27,13 @@
 }
 
 .moreInfo {
+   height: auto;
    width: 25%;
    margin: auto;
    text-align: center;
    font-family: 'Roboto', sans-serif;
    color: white;
    border-radius: 25%;
-}
-
-.moreInfo:hover {
-    padding: 25px 45px;
 }
 
 .booleanText:hover {
