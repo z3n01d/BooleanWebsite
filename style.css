@@ -20,25 +20,19 @@
 
 .infoText {
     width: 25%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
 
 .moreInfo {
-    background-image: linear-gradient(rgb(59, 59, 172,0.5),rgb(23, 23, 67,0.5));
-    padding: 15px 45px;
-    text-align: center;
-    background-size: 200% auto;
-    border-radius: 15px;
-    background-color: transparent;
-    display: flex;
-    margin: auto;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    transition: padding 0.1s ease-in-out 0ms;
+   width: 25%;
+   margin: auto;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   color: white;
+   border-radius: 25%;
 }
 
 .moreInfo:hover {
