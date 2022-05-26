@@ -27,7 +27,7 @@
 }
 
 .moreInfo {
-   height: auto;
+   display: block;
    width: 25%;
    margin: auto;
    text-align: center;
