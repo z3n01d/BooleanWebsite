@@ -1,15 +1,45 @@
+.html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .box {
+    min-height: 100vh;
     background-image: url("gfx/background.jpg");
-    width: 100%;
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    object-fit: fill;
 }
 
 .booleanText {
-    background-image: url("gfx/booleanText.png");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: fill;
+    display: block;
+    width: 25%;
+    offset-anchor: center;
+    margin: auto;
+    transition: width 0.1s ease-in-out 0ms;
+}
+
+.infoText {
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.moreInfo {
+    background-image: linear-gradient(rgb(59, 59, 172,0.5),rgb(23, 23, 67,0.5));
+    padding: 15px 45px;
+    text-align: center;
+    background-size: 200% auto;
+    border-radius: 15px;
+    background-color: transparent;
+    display: flex;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.booleanText:hover {
+    width: 27%;
 }
