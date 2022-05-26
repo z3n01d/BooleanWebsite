@@ -28,7 +28,7 @@
 }
 
 .moreInfo {
-   display: block;
+   display: flex;
    width: 10%;
    height: 7%;
    margin: auto;
