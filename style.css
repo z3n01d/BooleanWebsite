@@ -37,7 +37,8 @@
    height: 7%;
    text-align: center;
    text-decoration: none;
-   border: 10px solid #4640af;
+   border-radius: 20px;
+   border: 2px solid #4640af;
    font-family: 'Roboto', sans-serif;
    font-size: 25px;
    display: block;
