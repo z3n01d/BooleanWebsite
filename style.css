@@ -38,10 +38,11 @@
     margin: auto;
     font-family: 'Roboto', sans-serif;
     color: white;
+    transition: padding 0.1s ease-in-out 0ms;
 }
 
 .moreInfo:hover {
-    padding: 25px 55px;
+    padding: 25px 45px;
 }
 
 .booleanText:hover {
