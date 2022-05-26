@@ -29,7 +29,8 @@
 
 .moreInfo {
    display: flex;
-   margin: auto;
+   margin-left: auto;
+   margin-right: auto;
    background-color: #4640af;
    border: none;
    color: white;
