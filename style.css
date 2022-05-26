@@ -28,7 +28,6 @@
 }
 
 .moreInfo {
-   display: flex;
    margin-left: auto;
    margin-right: auto;
    background-color: #4640af;
@@ -38,6 +37,8 @@
    text-align: center;
    text-decoration: none;
    display: inline-block;
+   border-radius: 25%;
+   font-family: 'Roboto', sans-serif;
    font-size: 16px;
 }
 
