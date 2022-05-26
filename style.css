@@ -34,6 +34,7 @@
    font-family: 'Roboto', sans-serif;
    color: white;
    border-radius: 25%;
+   background-position: center;
 }
 
 .booleanText:hover {
