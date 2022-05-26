@@ -80,7 +80,7 @@
 }
 
 .button:active {
-    transform:  scaleY(3) scaleX(3);
+    background-color: hsla(0, 0%, 100%, 0.5);
 }
 
 .booleanText:hover {
