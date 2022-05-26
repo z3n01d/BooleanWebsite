@@ -79,6 +79,10 @@
   cursor: pointer;
 }
 
+.button:active {
+    transform:  scaleY(3) scaleX(3);
+}
+
 .booleanText:hover {
     width: 27%;
 }
