@@ -54,7 +54,7 @@
     color: white;
 }
 
-.moreInfo {
+.button {
    margin-left: auto;
    margin-right: auto;
    background-color: transparent;
@@ -73,7 +73,7 @@
    transition-duration: 0.2s;
 }
 
-.moreInfo:hover {
+.button:hover {
   background-color: #2356ff;
   cursor: pointer;
 }
