@@ -38,7 +38,7 @@
    text-align: center;
    text-decoration: none;
    border-radius: 20px;
-   border: 2px solid #4640af;
+   border: 8px solid #2356ff;
    font-family: 'Roboto', sans-serif;
    font-size: 25px;
    display: block;
@@ -46,7 +46,7 @@
 }
 
 .moreInfo:hover {
-  background-color: #4640af;
+  background-color: #2356ff;
 }
 
 .booleanText:hover {
