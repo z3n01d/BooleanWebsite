@@ -48,6 +48,7 @@
 
 .moreInfo:hover {
   background-color: #2356ff;
+  cursor: grab;
 }
 
 .booleanText:hover {
