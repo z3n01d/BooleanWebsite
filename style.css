@@ -71,7 +71,7 @@
    display: block;
    transition: all ease-in-out;
    transition-duration: 0.2s;
-   offset-position: 0 3;
+   offset-position: 0px 3px;
 }
 
 .button:hover {
