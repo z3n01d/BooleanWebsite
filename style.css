@@ -33,11 +33,12 @@
    background-color: #4640af;
    border: none;
    color: white;
-   padding: 15px 32px;
+   width: 10%;
+   height: 7%;
    text-align: center;
    text-decoration: none;
    display: inline-block;
-   border-radius: 25%;
+   border-radius: 10%;
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
 }
