@@ -1,9 +1,3 @@
-mainWindow = new BrowserWindow({
-    webPreferences: {
-        nodeIntegration: true
-    }
-});
-
 var fs = require("fs");
 var showdown = require("showdown");
 var converter = new showdown.Converter();
