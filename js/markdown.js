@@ -1,8 +1,11 @@
-const showdown = require("showdown");
+var showdown = require("showdown");
 var converter = new showdown.Converter();
 
-const fs = require("fs");
+var fs = require("fs");
 
-const file = fs.readFileSync("../markdown/info.md");
+var md = fs.readFileSync("../markdown/info.md");
+var html = converter.makeHtml(md)
 
-document.getElementById("root").innerHTML = converter.makeHtml(file);
+var body = document.getElementById("markdown")
+
+body.innerHTML = html;
