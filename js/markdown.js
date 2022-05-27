@@ -2,4 +2,4 @@ const fs = require("fs");
 
 const file = fs.readFileSync("../markdown/info.md");
 
-document.getElementById("root").textContent = marked.parse(file);
+document.getElementById("root").nodeValue = marked.parse(file);
