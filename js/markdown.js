@@ -1,4 +1,7 @@
 require(["fs","showdown"],() => {
+    var fs = require("fs");
+    var showdown = require("showdown");
+
     var converter = new showdown.Converter();
 
     var md = fs.readFileSync("../markdown/info.md","utf-8");
