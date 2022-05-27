@@ -1,6 +1,6 @@
 function App() {
     return(
-        <div type="text-center">Hello, world!</div>
+        <div src="../markdown/info.md"></div>
     );
 }
 
