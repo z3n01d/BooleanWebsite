@@ -1,7 +1,5 @@
-function App() {
-    return(
-        <body src="../markdown/info.md"></body>
-    );
-}
+const fs = require("fs");
 
-ReactDOM.render(<App/>,document.getElementById("root"));
+const file = fs.readFileSync("../markdown/info.md");
+
+document.getElementById("root").textContent = marked.parse(file);
