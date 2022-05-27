@@ -7,9 +7,8 @@
 
 .topnav {
     background-color: #2356ff;
-    width: 100%;
-    height: 10%;
-    margin-top: auto;
+    width: 100px;
+    height: 10px;
     margin: auto;
     backdrop-filter: blur(10);
     overflow: hidden;
