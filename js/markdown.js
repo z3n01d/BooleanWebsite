@@ -1,7 +1,7 @@
 function App() {
     return(
-        <div>Hello, world!</div>
-    )
+        <body>Hello, world!</body>
+    );
 }
 
-ReactDOM.render(<App/>,document.getElementById("root"))
+ReactDOM.render(<App/>,document.getElementById("root"));
