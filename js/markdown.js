@@ -1,11 +1,19 @@
+var fs = require("fs");
 var showdown = require("showdown");
 var converter = new showdown.Converter();
 
-var fs = require("fs");
+document.onreadystatechange = () => {
+    if (document.readyState === "complete") {
+        var md = fs.readFileSync("../markdown/info.md");
+        var html = converter.makeHtml(md)
 
-var md = fs.readFileSync("../markdown/info.md");
-var html = converter.makeHtml(md)
+        var body = document.getElementById("markdown")
+        
+        console.log("Loading markdown...");
+        console.log(html);
 
-var body = document.getElementById("markdown")
+        body.innerHTML = html;
 
-body.innerHTML = html;
+        console.log("Markdown ready!")
+    };
+};
