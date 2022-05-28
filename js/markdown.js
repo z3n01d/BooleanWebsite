@@ -8,16 +8,23 @@ document.onreadystatechange = () => {
 
             var converter = new showdown.Converter();
 
-            var md = fs.readFileSync("../markdown/info.md","utf-8");
-            var html = converter.makeHtml(md);
+            console.log("Converter created.")
 
-            var body = document.getElementById("markdown");
+            fs.readFile("../markdown/info.md","utf-8",(err,data) => {
+                if (err) {
+                    return console.log(err);
+                }
 
-            console.log(html);
+                var html = converter.makeHtml(data);
 
-            body.innerHTML = html;
+                var body = document.getElementById("markdown");
 
-            console.log("Markdown ready!");
+                console.log(html);
+
+                body.innerHTML = html;
+
+                console.log("Markdown ready!");
+            });
         })
     }
 }
