@@ -1,5 +1,8 @@
 document.onreadystatechange = () => {
     if (document.readyState === "complete") {
+        const showdown = require("showdown");
+        const fs = require("fs");
+
         console.log("Loading markdown...");
 
         var converter = new showdown.Converter();
