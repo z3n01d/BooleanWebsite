@@ -90,5 +90,5 @@
     display: block;
     font-family: 'Roboto', sans-serif;
     color: white;
-    position: fixed;
+    position: absolute;
 }
