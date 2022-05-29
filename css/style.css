@@ -86,8 +86,7 @@
 
 h1 {
     margin: auto;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     display: block;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -95,8 +94,7 @@ h1 {
 
 p {
     margin: auto;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     display: block;
     font-family: 'Roboto', sans-serif;
     color: white;
