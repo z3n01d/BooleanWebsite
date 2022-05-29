@@ -85,11 +85,15 @@
 }
 
 h1 {
+    margin: auto;
+    display: block;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
 
 p {
+    margin: auto;
+    display: block;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
