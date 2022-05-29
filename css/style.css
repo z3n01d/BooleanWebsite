@@ -84,18 +84,11 @@
     width: 27%;
 }
 
-h1 {
+.center {
     margin: auto;
     text-align: center;
-    display: block;
+    display: flex;
     font-family: 'Roboto', sans-serif;
     color: white;
-}
-
-p {
-    margin: auto;
-    text-align: center;
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    position: fixed;
 }
