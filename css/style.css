@@ -95,3 +95,12 @@ h1 {
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+
+.center2 {
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
