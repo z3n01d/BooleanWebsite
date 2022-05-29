@@ -90,6 +90,7 @@ h1 {
 }
 
 .center {
+    margin-bottom: 30%;
     margin: auto;
     text-align: center;
     display: block;
@@ -98,6 +99,7 @@ h1 {
 }
 
 .center2 {
+    margin-bottom: 30%;
     margin: auto;
     text-align: center;
     font-size: large;
